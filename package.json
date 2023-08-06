@@ -1,22 +1,21 @@
 {
-  "name": "backend",
+  "name": "movie",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple web app based on OMDb API to search movies.",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server":"nodemon index.js"
+    "start": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Satadru Mallick",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.1.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.0",
-    "mongoose": "^6.9.2",
-    "nodemon": "^2.0.20"
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.17.3",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.87.0"
   }
 }
